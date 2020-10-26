@@ -2,7 +2,8 @@ body {
   font-family: "Roboto Condensed", Arial, sans-serif;
   background: url("../img/header_bg2.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
+  background-position: center center; 
   line-height: 1.5em;
   font-weight: 300;
   font-size: 16px;
@@ -16,7 +17,7 @@ hr {
   border-bottom: 1px solid #fff;
 }
 span.time, span.categories {
-  color: #ADADAD;
+  color: #202020;
   margin-bottom: 5px;
   font-size: 11px;
 }
@@ -36,7 +37,7 @@ a, a:link, a:active {
   color: #bd5d38;
 }
 a:hover {
-  color: #020202;
+  color: #202020;
   text-decoration: underline;
 }
 
@@ -92,16 +93,16 @@ footer {
 /* Left column */
 div.col-sm-3 {
   margin-top: 50px;
-  color: #666;
+  color: #202020;
 }
 div.col-sm-3 strong {
   font-size: 16px;
-  color: #4A4A4A;
+  color: #202020;
   font-weight: normal;
 }
 div.col-sm-3 div.profile-about {
   margin-top: 10px;
-  color: #8C8C8C;
+  color: #202020;
 }
 div.col-sm-3 img.profile-avatar {
   border-radius: 50%;
@@ -158,7 +159,7 @@ div.col-sm-3 img.profile-avatar {
   color: #bd5d38;
 }
 .social li a:hover {
-  color: #6D6D6D;
+  color: #fff;
 }
 
 .share-page {
