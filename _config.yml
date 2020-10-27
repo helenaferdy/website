@@ -2,11 +2,11 @@ title: Sena Perdiana
 description: Stuff that I come across and find interesting.
 author: Sena Perdiana
 email: senaferdy79@gmail.com
-phone: -
+phone: (650) 576-5403
 github: https://github.com/helenaferdy
 about: I am a Software Engineer at <a href="https://www.build.com" target="_blank">Build.com</a> and a freelance developer. I love working on backend and frontend technologies.
 disqus_shortname: Networking and Information Security
-google_analytics: -
+google_analytics: UA-31048387-6
 avatar_url: /static/img/me.jpg
 
 enableTags: true
@@ -33,15 +33,15 @@ share:
   twitter_username: helenaferdy
   # fb_appid: 1749788565247320
 
-urls:
-    - text: About Me
-      url: /about/
-    - text: Projects
-      url: /projects/
-    - text: Blogs
-      url: /blogs/
-    - text: XML Feed
-      url: /feed.xml
+# urls:
+#     - text: About Me
+#       url: /about/
+#     - text: Projects
+#       url: /projects/
+#     - text: Blogs
+#       url: /blogs/
+#     - text: XML Feed
+#       url: /feed.xml
 # url: "http://localhost:4000"
 url: "https://helenaferdy.github.io"
 baseurl: ""
