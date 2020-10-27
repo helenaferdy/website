@@ -6,8 +6,8 @@ body {
   background-position: center center; 
   height: 100%;
   line-height: 1.5em;
-  font-weight: 300;
-  font-size: 16px;
+  font-weight: 350;
+  font-size: 17px;
   color: #202020;
 }
 hr {
@@ -31,6 +31,7 @@ h1 {
   font-size: 25px;
 }
 h2, h3 {
+  font-size: 20px;
   margin-bottom: 5px;
 }
 a, a:link, a:active {

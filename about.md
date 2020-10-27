@@ -4,10 +4,10 @@ title: About
 permalink: /about/
 ---
 <p>
-TEST ME
+Hi, I'm sena.
 </p>
 
 Email: <a href="mailto:{{site.email}}?Subject=From Blog Site:">{{site.email}}</a>
 
 ## Resume
-<iframe src="https://drive.google.com/open?id=18xHF4SRS3pEAnxkowZhucR2UFtVALNuD" width="100%" height="900"></iframe>
+<iframe src="https://drive.google.com/file/d/1REws9tEPYl1nstPUcynC1ex8ufFTjS1T/view?usp=sharing" width="100%" height="900"></iframe>
