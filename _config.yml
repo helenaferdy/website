@@ -5,8 +5,8 @@ email: senaferdy79@gmail.com
 phone: (650) 576-5403
 github: https://github.com/helenaferdy
 about: I am a Software Engineer at <a href="https://www.build.com" target="_blank">Build.com</a> and a freelance developer. I love working on backend and frontend technologies.
-disqus_shortname: programming
-google_analytics: UA-31048387-6
+disqus_shortname: Networking and Information Security
+google_analytics: -
 avatar_url: /static/img/me.jpg
 
 enableTags: true
@@ -21,16 +21,16 @@ social:
     - icon: fa-facebook
       link: "https://www.facebook.com/tjamadar"
     - icon: fa-twitter
-      link: "https://twitter.com/tmjam3011"
+      link: "https://twitter.com/helenaferdy"
     - icon: fa-linkedin
-      link: "https://www.linkedin.com/in/tauseef-jamadar-5b577913/"
+      link: "https://www.linkedin.com/in/senaperdiana/"
     # - icon: fa-stack-exchange
     #   link: "#"
     - icon: fa-github
-      link: "https://github.com/tmjam"
+      link: "https://github.com/helenaferdy"
 
 share:
-  twitter_username: tmjam3011
+  twitter_username: helenaferdy
   # fb_appid: 1749788565247320
 
 urls:
