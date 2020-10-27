@@ -3,6 +3,8 @@ body {
   background: url("../img/header_bg2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
   background-position: center center; 
   height: 100%;
   line-height: 1.5em;
