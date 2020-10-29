@@ -21,15 +21,17 @@ social:
     - icon: fa-instagram
       link: "https://instagram.com/senafrd/"
     - icon: fa-facebook
-      link: "https://facebook.com/helenaferdy/"
+      link: "https://facebook.com/helenaferdy"
     - icon: fa-twitter
       link: "https://twitter.com/helenaferdy"
     - icon: fa-linkedin
-      link: "https://linkedin.com/in/senaperdiana/"
+      link: "https://linkedin.com/in/senaperdiana"
     # - icon: fa-stack-exchange
     #   link: "#"
     - icon: fa-github
       link: "https://github.com/helenaferdy"
+    - icon: fa-steam
+      link: "https://sss"
 
 share:
   twitter_username: helenaferdy
