@@ -25,9 +25,11 @@ input#js-search__input {
   display: none;
 }
 .search__results > li {
+  color: #fff;
   border-top: 1px solid #f0f0f0;
 }
 .search__results > li > a {
+  color: #fff;
   display: block;
   padding: 8px;
 }
