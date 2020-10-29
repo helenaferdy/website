@@ -10,4 +10,4 @@ Hi, I am `Kadek Sena Perdiana`, a fresh graduate, a tech enthusiast, a big Green
 Email: <a href="mailto:{{site.email}}?Subject=From Blog Site:">{{site.email}}</a>
 
 ## Resume
-<iframe src="https://helenaferdy.github.io/static/img/resume.png" width="100%" height="900"></iframe>
+<iframe src="https://helenaferdy.github.io/static/img/resume.png" width="100%" height="900px"></iframe>
