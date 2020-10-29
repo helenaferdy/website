@@ -16,7 +16,7 @@ input#js-search__input {
   overflow-x: hidden;
   height: calc(100% - 110px);
   transition: 0.2s ease;
-  font-size: .9em;
+  font-size: .8em;
   color: #fff;
 }
 .search__results.is-hidden {
@@ -39,6 +39,7 @@ input#js-search__input {
   right: 12px;
 }
 .search.is-active {
+  color: #fff;
   opacity: 1;
   visibility: visible;
 }
