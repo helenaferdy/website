@@ -12,13 +12,21 @@ title: Blogs
 i {
   font-size: 12px;}
 
+.leftz {
+  float: left;
+}
+.rightz {
+  float: right;
+}
+
 </style>
 
 <div id="blogs">
 
   {% for post in paginator.posts %}
   <div class="myDiv">
-      <a style="font-size: 25px;" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a><div style="text-align: right;"> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></div>
+      <p class="leftz"><a style="font-size: 25px;" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></p>
+      <p class="rightz"> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></p>
   </div>
   {% endfor %}
 
