@@ -13,7 +13,7 @@ title: Blogs
 
 i {
   text-align: center;
-  font-size: 12px;}
+  font-size: 10px;}
 
 /*.leftz {
   text-align: left;
@@ -29,7 +29,7 @@ i {
   {% for post in paginator.posts %}
   <div class="myDiv">
       <p class="leftz"><a style="font-size: 25px;" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></p>
-      <p class="rightz"> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></p>
+      <p class="rightz"> <i><span>{{ post.date | date_to_string }}</span></i></p>
   </div>
   {% endfor %}
 
