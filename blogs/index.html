@@ -5,20 +5,22 @@ title: Blogs
 <style>
 .myDiv {
   border: 1px outset gray;
+  padding: 10px;
 }
 
 i {
-  size: 10px;
+  size: 5px;
+  text-align: right;
 }
 </style>
 
 <div id="blogs">
 
+  {% for post in paginator.posts %}
   <div class="myDiv">
-    {% for post in paginator.posts %}
-      <a style="size: 24px; width: 500px; display: inline-block;" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i>
-    {% endfor %}
+      <a style="size: 40px; display: inline-block;" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i>
   </div>
+  {% endfor %}
 
   <!-- Pagination links -->
   {% if paginator.total_pages > 1 %}
