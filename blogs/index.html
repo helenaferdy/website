@@ -6,10 +6,19 @@ title: Blogs
 .myDiv {
   border: 1px outset gray;
   padding: 10px;
+  margin: 5px;
+
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
 }
 
-i {
-  size: 5px;
+.datez {
+  font-size: 5px;
   text-align: right;
 }
 </style>
@@ -18,7 +27,7 @@ i {
 
   {% for post in paginator.posts %}
   <div class="myDiv">
-      <a style="size: 40px; display: inline-block;" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i>
+      <a style="font-size: 28px;" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> &raquo; <i><span id="datez">{{ post.date | date_to_string }}</span></i>
   </div>
   {% endfor %}
 
