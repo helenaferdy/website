@@ -2,15 +2,23 @@
 layout: page
 title: Blogs
 ---
+<style>
+.myDiv {
+  border: 1px outset gray;
+}
 
+i {
+  size: 10px;
+}
+</style>
 
 <div id="blogs">
 
-  <ol class="posts">
+  <div class="myDiv">
     {% for post in paginator.posts %}
-      <li><a style="size: 24px; width: 50px; display: inline-block;" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>
+      <a style="size: 24px; width: 500px; display: inline-block;" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i>
     {% endfor %}
-  </ol>
+  </div>
 
   <!-- Pagination links -->
   {% if paginator.total_pages > 1 %}
