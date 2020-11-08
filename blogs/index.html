@@ -4,8 +4,9 @@ title: Blogs
 ---
 <style>
 .myDiv { 
+  min-width: 250px;
   display: inline-block;
-  border: 1px outset gray;
+  border: 1px outset #FF6347;
   padding-top: 18px;
   padding-left: 15px;
   padding-right: 15px;
@@ -19,6 +20,7 @@ i {
 
 .leftz {
   font-weight: bold;
+  font-size: 24px;
 }
 
 </style>
@@ -26,10 +28,12 @@ i {
 <div id="blogs">
 
   {% for post in paginator.posts %}
-  <div class="myDiv">
-      <p class="leftz"><a style="font-size: 24px;" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></p>
-      <p class="rightz"> <i><span>{{ post.date | date_to_string }}</span></i></p>
-  </div>
+  <a href="{{ site.url }}{{ post.url }}">
+    <div class="myDiv">
+        <p class="leftz">{{ post.title }}</p>
+        <p class="rightz"> <i><span>{{ post.date | date_to_string }}</span></i></p>
+    </div>
+  </a>
   {% endfor %}
 
   <!-- Pagination links -->
