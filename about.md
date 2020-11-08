@@ -28,6 +28,4 @@ Because, hey, it's not a waste of time if you enjoy the time you waste.
 
 &nbsp; 
 
-&nbsp; 
-
-<div style="text-align: right; color: orange"><sub><sup>Sun, Oct 25th, 2020.</sup></sub></div>
+<div style="text-align: right; color: red"><sub><sup>Sun, Oct 25th, 2020.</sup></sub></div>
