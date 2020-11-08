@@ -4,7 +4,6 @@ title: Blogs
 ---
 <style>
 .myDiv { 
-  font-weight: bold;
   display: inline-block;
   border: 1px outset gray;
   padding-top: 18px;
@@ -18,12 +17,9 @@ i {
   text-align: center;
   font-size: 11px;}
 
-/*.leftz {
-  text-align: left;
+.leftz {
+  font-weight: bold;
 }
-.rightz {
-  text-align: right;
-}*/
 
 </style>
 
@@ -31,7 +27,7 @@ i {
 
   {% for post in paginator.posts %}
   <div class="myDiv">
-      <p class="leftz"><a style="font-size: 25px;" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></p>
+      <p class="leftz"><a style="font-size: 24px;" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></p>
       <p class="rightz"> <i><span>{{ post.date | date_to_string }}</span></i></p>
   </div>
   {% endfor %}
